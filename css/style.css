@@ -1,0 +1,62 @@
+/*====================================== Reset =============================================*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*====================================== Klasy =============================================*/
+.hidden{
+   display:none;
+}
+
+.container{
+   width:1140px;
+   margin-left:auto;
+   margin-right:auto;
+}
+/*====================================== Slider =============================================*/
+
+.slider{
+
+}
+
+.slide{
+   /* display: flex;
+   align-items: flex-end; */
+height: 540px;
+background-size: cover;
+background-position: center;
+/* filter: brightness(50%); */
+font-family: 'Poppins', sans-serif;
+}
+
+.slide img{
+  height:120px;
+  margin-bottom:20px;
+}
+
+.slide h3{
+font-size: 36px;
+font-weight: 600;
+color: #ffffff;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align: center;
+margin-bottom:4px;
+}
+
+.slide p{
+   font-size:20px;
+   font-weight: 400;
+   color:#ffffff;
+   text-align: center;
+}
+
+.slide-content{
+padding: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+height: 100%;
+}
